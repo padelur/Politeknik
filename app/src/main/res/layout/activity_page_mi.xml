@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageMi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#F0641F"
+            android:gravity="center"
+            android:text="Manajemen Informatika"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Deskrpsi dan Profil"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#EF641F"
+            android:text="  Jurusan Teknologi Informasi Politeknik Negeri Padang mempunyai 3 program studi yaitu D3 Manajemen Informatika, D3 Teknik Komputer dan D4 Teknik Rekayasa Perangkat Lunak. Program Studi D3 Manajemen Informatika didirikan pada tahun 2005, dan terakreditasi dengan peringkat B berdasarkan Surat Keputusan Badan Akreditasi nasional Perguruan Tinggi (BANPT) Departemen Pendidikan dan kebudayaan republik Indonesia Surat Keputusan Nomor :1196/SK/BAN- PT/Akred/Dpl-III/XII/2015 dengan nilai akreditasi 338.
+
+Kurikulum D3 Manajemen Informatika dirancang dengan total beban SKS sebanyak 109 SKS dengan pembagian total SKS teori sebanyak 68 SKS dengan total jam 68 jam dan total SKS praktek sebanyak 41 SKS dengan 123 jam. Dengan persentase jumlah teori dibandingkan dengan praktek adalah 35 % jam teori dan 65% jam praktek."
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnBackMi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#EF641F"
+            android:text="Back"
+            android:textColorLink="#EF641F" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
